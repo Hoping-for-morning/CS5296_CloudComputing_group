@@ -105,7 +105,7 @@ ctrl + P + Q
 - in master container `vim /etc/hosts`
 - example `hosts` in master
     
-    ![Untitled](config%208164001eadaf4563b2c7d20b7b9136f1/Untitled.png)
+    <img width="334" alt="image" src="https://user-images.githubusercontent.com/46880289/234584094-331e0ce0-5c50-4b4c-93b7-593a591a9d7e.png">
     
 - use `cat /etc/hosts` in slave1 and slave2 container to find the relative ip address
 
@@ -128,7 +128,8 @@ sudo mount (ip172.31.81.61):/home/ubuntu/monkey/nfs /home/nfs
 
 the ip should change to your device ip
 
-![Untitled](config%208164001eadaf4563b2c7d20b7b9136f1/Untitled%201.png)
+<img width="888" alt="image" src="https://user-images.githubusercontent.com/46880289/234584457-9c82643f-68e0-4ec7-86c5-9438b413b95d.png">
+
 
 ### 8. build and compile the mpi program to test the performance
 
