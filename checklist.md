@@ -7,18 +7,37 @@ Our topic is to explore the impact of container usage on HPC performance. We bui
 check the item bellow will help you build the environment and install the dependencies packages correctly.
 
 - VM with Linux opertaion system
-- 
+- install Docker
+- install podman
+- install nfs server
+- install go environment
+- install singularity
+- pull the mpi image
+- install fio
+- install gcc g++
+- install gfortran
+- install libopenblas
+- install hpl-2.3
+
 
 ## Description
 
-Here is our detailed guide on how to use Docker to establish an environment in EC2 instance see dockerbuilding.md.
+Here is our detailed guide 
+
+establish an environment in EC2 instance based on Docker see dockerbuilding.md.
+
+establish an environment in EC2 instance based on Podman see podmanbuilding.md.
+
+establish an environment in EC2 instance based on singularity see singularitybuilding.md.
+
 
 ### dependencies
 We use EC2 instance in AWS
 Instance type: t2.micro
 operation system: ubuntu22.04
 
+## Environments Established you can install
 
-## Installation
+These environments have already been set up and are available for you to download.
 
 ## Evaluation and expected result
