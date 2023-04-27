@@ -28,7 +28,7 @@ sudo apt-get install nfs-common
 - Then, configure NFS shared directory. For example : If we need to share all documents under the /home/ubuntu/monkey/nfs folder, we need to configure the /etc/exports file and add the following line at the end:
 
 ```bash
-"/home/ubuntu/monkey/nfs" * (rw,sync,no_subtree_check)
+"/home/ubuntu/monkey/nfs" *(rw,sync,no_subtree_check)
 ```
 
 - Then open the authority of nfs file
