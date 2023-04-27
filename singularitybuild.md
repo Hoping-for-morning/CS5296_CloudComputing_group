@@ -85,7 +85,7 @@ sudo apt-get install libglib2.0-dev
 singularity --help
 ```
 
-![img](file:///C:\Users\hjr\AppData\Local\Temp\ksohtml10936\wps1.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/33509788/234894472-55b6f63b-27e6-4f3a-bd8c-5ebea311b5ef.png">
 
 Confirm that singularity has been installed
 
@@ -151,7 +151,7 @@ singularity shell -B /home/ubuntu/nfs1 mpi/
 
 We can see that the nfs1 folder is already in the container
 
-![img](file:///C:\Users\hjr\AppData\Local\Temp\ksohtml10936\wps3.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/33509788/234894678-1ea0f0ad-2ae6-4514-a8cf-64d2b08be8ab.png">
 
 
 
@@ -161,7 +161,7 @@ We can see that the nfs1 folder is already in the container
 mpicc -o ma ma.c
 ```
 
-![img](file:///C:\Users\hjr\AppData\Local\Temp\ksohtml10936\wps4.jpg) 
+<img width="222" alt="image" src="https://user-images.githubusercontent.com/33509788/234894721-578a56d7-fdfb-40bb-b665-16c28977587b.png">
 
 
 
@@ -171,7 +171,7 @@ mpicc -o ma ma.c
 mpirun -np 8 ma
 ```
 
-![img](file:///C:\Users\hjr\AppData\Local\Temp\ksohtml10936\wps5.jpg) 
+<img width="409" alt="image" src="https://user-images.githubusercontent.com/33509788/234894787-7c9a55ef-3dae-4324-a516-5eca7196d414.png">
 
  
 
