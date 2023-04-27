@@ -1,15 +1,14 @@
 # Restart Steps
-
+## Docker
+## Podman
 ## 1. Configuring root login in VM
 
 ~~~shell
-sudo passwd root
 su root
 ~~~
-
 password: root
 
-## 2. Start the container
+### 2. Start the container
 
 ~~~shell
 podman start master
@@ -17,7 +16,7 @@ podman start slave1
 podman start slave2
 ~~~
 
-## 3. mount the nfs file system to every container  and start ssr service
+### 3. mount the nfs file system to every container  and start ssr service
 
 ~~~shell
 podman attach master
@@ -37,7 +36,7 @@ ctrl+P+Q
 
 ~~~
 
-## 4. Put the addresses of slave1 and slave2 to the hosts file in masters
+### 4. Put the addresses of slave1 and slave2 to the hosts file in masters
 
 check the addresses of slave1 and slave2. 
 
@@ -64,3 +63,4 @@ ip_address	slave1
 ip_address	slave2
 ~~~
 
+## Singularity
