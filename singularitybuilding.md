@@ -97,7 +97,7 @@ Confirm that singularity has been installed
 singularity build --sandbox mpi/ docker://hmonkey/openmpi14.04:v3
 ```
 
-Mpi/ is the built container
+mpi/ is the built container(In our AMI, the container is named master/)
 
 
 
