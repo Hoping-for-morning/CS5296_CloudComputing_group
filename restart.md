@@ -62,5 +62,20 @@ vi /etc/hosts
 ip_address	slave1
 ip_address	slave2
 ~~~
-
+### 5. FIO test
+Start server on two slaves
+~~~shell
+fio --server
+~~~
+Test read and write on master
+~~~shell
+sh fio_test.sh
+~~~
+### 6. HPL test
+Test on master. Change directory to hpl-2.3/bin/test and run command.
+~~~shell
+podman attach master
+cd home/file/hpl-2.3/bin/test
+mpirun -np 4 ./xhpl > 1.txt
+~~~
 ## Singularity
