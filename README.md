@@ -15,4 +15,4 @@ Analysis of the impact of container usage on HPC performance
 
 ## Artifact file
 
-the main Artifact Appendix checklist see checklist.md
+the main Artifact Appendix checklist see [checklist.md](./checklist.md)
