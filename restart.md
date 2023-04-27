@@ -1,7 +1,7 @@
 # Restart Steps
 ## Docker
 ## Podman
-## 1. Configuring root login in VM
+### 1. Configuring root login in VM
 
 ~~~shell
 su root
@@ -17,7 +17,7 @@ podman start slave2
 ~~~
 
 ### 3. mount the nfs file system to every container  and start ssr service
-
+The ip address should be replaced with the Private IPv4 addresses of your ec2 instance.
 ~~~shell
 podman attach master
 sudo mount 172.31.81.135:/home/ubuntu/monkey/nfs /home/nfs
@@ -38,7 +38,7 @@ ctrl+P+Q
 
 ### 4. Put the addresses of slave1 and slave2 to the hosts file in masters
 
-check the addresses of slave1 and slave2. 
+Check the addresses of slave1 and slave2. 
 
 ~~~shell
 podman attach slave1
