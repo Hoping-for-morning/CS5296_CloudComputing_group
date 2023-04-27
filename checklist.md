@@ -24,11 +24,11 @@ check the item bellow will help you build the environment and install the depend
 
 Here is our detailed guide 
 
-establish an environment in EC2 instance based on Docker see dockerbuilding.md.
+establish an environment in EC2 instance based on Docker see [dockerbuilding.md](./dockerbuilding.md).
 
-establish an environment in EC2 instance based on Podman see podmanbuilding.md.
+establish an environment in EC2 instance based on Podman see [podmanbuilding.md](./podmanbuilding.md).
 
-establish an environment in EC2 instance based on singularity see singularitybuilding.md.
+establish an environment in EC2 instance based on singularity see [singularitybuilding.md](./podmanbuilding.md).
 
 
 ### dependencies
@@ -42,6 +42,6 @@ These environments have already been set up and are available for you to downloa
 
 ## Evaluation and expected result
 
-fiotest.md is the guide file to test and evalute the performance of file I/O.
+[fiotest.md](./fiotest.md) is the guide file to test and evalute the performance of file I/O.
 
-hpl.md is the guide file to test and evaluate the performance cluster calulation.
+[hpltest.md](./hpltest.md) is the guide file to test and evaluate the performance cluster calulation.
