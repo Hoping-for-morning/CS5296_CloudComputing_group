@@ -52,7 +52,8 @@ sudo apt install podman
 podman pull docker://hmonkey/openmpi14.04:v3
 ~~~
 
-![image-20230427103154366](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427103154366.png)
+![image-20230427103154366](https://user-images.githubusercontent.com/62580908/234894505-ee61be89-e6db-4e30-962a-30d197b9ca06.png)
+
 
 2. List all Images
 
@@ -60,7 +61,7 @@ podman pull docker://hmonkey/openmpi14.04:v3
 podman images
 ~~~
 
-![image-20230427103347053](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427103347053.png)
+![image-20230427103347053](https://user-images.githubusercontent.com/62580908/234894951-a27de8e2-5f9a-4ff0-9dd6-6b4c5c63c626.png)
 
 ## 5. Create a model container and commit image
 
@@ -70,7 +71,7 @@ podman images
 sudo podman run -dit -ti --privileged=true --name model hmonkey/openmpi14.04:v3 /bin/bash
 ~~~
 
-![image-20230427103846200](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427103846200.png)
+![image-20230427103846200](https://user-images.githubusercontent.com/62580908/234895057-9addeb5c-4778-4395-98a6-a6d91b53ee03.png)
 
 2. check container status
 
@@ -78,7 +79,7 @@ sudo podman run -dit -ti --privileged=true --name model hmonkey/openmpi14.04:v3 
 podman ps -a
 ~~~
 
-![image-20230427104014978](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427104014978.png)
+![image-20230427104014978](https://user-images.githubusercontent.com/62580908/234895166-0bae28cc-9124-4439-8b66-2a1bfca80803.png)
 
 3. Get running container command-line access:
 
@@ -110,13 +111,13 @@ Ctrl P+Q
 podman commit COINTAINER_ID
 ~~~
 
-![image-20230427110726603](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427110726603.png)
+![image-20230427110726603](https://user-images.githubusercontent.com/62580908/234895245-283fc919-d7c2-4114-880d-c132844c82ab.png)
 
 ~~~shell
 podman images
 ~~~
 
-![image-20230427110911875](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427110911875.png)
+![image-20230427110911875](https://user-images.githubusercontent.com/62580908/234895301-fb9a3d87-ed5d-4c01-8ba4-1aa2a5ffb5ef.png)
 
 A new image `9cb83ab47a04`
 
@@ -139,7 +140,7 @@ sudo podman run -dit -ti --privileged=true --name slave2 9cb83ab47a04 /bin/bash
 podman ps -s
 ~~~
 
-![image-20230427111350224](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427111350224.png)
+![podmancontainers](https://user-images.githubusercontent.com/62580908/234895576-1d77a8bb-56d5-4319-b03d-12940a930509.png)
 
 3. mount the nfs file system to every container
 
@@ -202,7 +203,7 @@ mpirun -hostfile hostfile -np 8 ./hello
 
 
 
-![image-20230427115428351](C:\Users\Habsburg\AppData\Roaming\Typora\typora-user-images\image-20230427115428351.png)
+![image-20230427115428351](https://user-images.githubusercontent.com/62580908/234895671-d02a0f64-027f-4961-bc2c-34bfa0ed19ae.png)
 
 
 
