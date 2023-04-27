@@ -40,6 +40,9 @@ operation system: ubuntu22.04
 
 These environments have already been set up and are available for you to download.
 
+Podman:
+EC2 AMI ID: ami-002acc3ab6e575668
+
 ## Evaluation and expected result
 
 [fiotest.md](./fiotest.md) is the guide file to test and evalute the performance of file I/O.
