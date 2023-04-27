@@ -28,7 +28,7 @@ establish an environment in EC2 instance based on Docker see [dockerbuilding.md]
 
 establish an environment in EC2 instance based on Podman see [podmanbuilding.md](./podmanbuilding.md).
 
-establish an environment in EC2 instance based on singularity see [singularitybuilding.md](./podmanbuilding.md).
+establish an environment in EC2 instance based on singularity see [singularitybuilding.md](./singularitybuilding.md).
 
 
 ### dependencies
@@ -42,6 +42,13 @@ These environments have already been set up and are available for you to downloa
 
 Podman:
 EC2 AMI ID: ami-002acc3ab6e575668
+Region: us-east-1c
+
+Singularity:
+EC2 AMI ID: ami-0c9b8b367dbd5d7ca
+Region: us-east-1a
+
+after you launch a instance by AMI, you should follow the restart.md to restart the service in virtual meachine to build the operational environment.
 
 ## Evaluation and expected result
 
