@@ -41,3 +41,7 @@ operation system: ubuntu22.04
 These environments have already been set up and are available for you to download.
 
 ## Evaluation and expected result
+
+fiotest.md is the guide file to test and evalute the performance of file I/O.
+
+hpl.md is the guide file to test and evaluate the performance cluster calulation.
