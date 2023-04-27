@@ -131,7 +131,7 @@ the ip should change to your device ip
 <img width="888" alt="image" src="https://user-images.githubusercontent.com/46880289/234584457-9c82643f-68e0-4ec7-86c5-9438b413b95d.png">
 
 
-### 8. build and compile the mpi program to test the performance
+### 8. build and compile the mpi program to test the environment is built
 
 - To configure NFS for distributed program execution, exit the container and go into `monkey/nfs` directory.
 - write hello.c
