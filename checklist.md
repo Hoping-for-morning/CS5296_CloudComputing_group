@@ -4,7 +4,10 @@ Our topic is to explore the impact of container usage on HPC performance. We bui
 
 ## Checklist
 
+check the item bellow will help you build the environment and install the dependencies packages correctly.
 
+- VM with Linux opertaion system
+- 
 
 ## Description
 
