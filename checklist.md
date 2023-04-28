@@ -22,7 +22,11 @@ check the item bellow will help you build the environment and install the depend
 
 ## Description
 
-Here is our detailed guide 
+### Workflow
+
+
+### Build
+Here is our detailed guide to help you build environment.
 
 establish an environment in EC2 instance based on Docker see [dockerbuilding.md](./dockerbuilding.md).
 
@@ -31,7 +35,7 @@ establish an environment in EC2 instance based on Podman see [podmanbuilding.md]
 establish an environment in EC2 instance based on singularity see [singularitybuilding.md](./singularitybuilding.md).
 
 
-### dependencies
+### Dependencies
 We use EC2 instance in AWS
 Instance type: t2.micro
 operation system: ubuntu22.04
