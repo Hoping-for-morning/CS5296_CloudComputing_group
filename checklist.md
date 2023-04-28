@@ -54,6 +54,10 @@ Singularity:
 EC2 AMI ID: ami-0c9b8b367dbd5d7ca
 Region: us-east-1a
 
+Docker:
+EC2 AMI ID: ami-03734a29ec3d48252
+Region: us-east-1
+
 after you launch a instance by AMI, you should follow the [restart.md](./restart.md) to restart the service in virtual meachine to build the operational environment.
 
 ## Evaluation and expected result
