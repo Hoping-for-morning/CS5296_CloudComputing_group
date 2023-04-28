@@ -48,7 +48,7 @@ Singularity:
 EC2 AMI ID: ami-0c9b8b367dbd5d7ca
 Region: us-east-1a
 
-after you launch a instance by AMI, you should follow the restart.md to restart the service in virtual meachine to build the operational environment.
+after you launch a instance by AMI, you should follow the [restart.md](./restart.md) to restart the service in virtual meachine to build the operational environment.
 
 ## Evaluation and expected result
 
