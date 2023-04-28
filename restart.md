@@ -1,5 +1,5 @@
 # Restart Steps
-## Docker
+## Podman
 ### 1. Configuring root login in VM
 
 ~~~shell
@@ -77,7 +77,7 @@ podman attach master
 cd home/file/hpl-2.3/bin/test
 mpirun -np 4 ./xhpl > 1.txt
 ~~~
-## Podman
-The container can be used directly without additional operations.
+## Docker
+When verifying tests about docker containers in an instance created with the EC2 AMI (docker) we provide, the operations to restart the containers are similar to those of Podman.
 ## Singularity
 The container can be used directly without additional operations.
