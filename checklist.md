@@ -37,12 +37,12 @@ establish an environment in EC2 instance based on Podman see [podmanbuilding.md]
 establish an environment in EC2 instance based on singularity see [singularitybuilding.md](./singularitybuilding.md).
 
 
-### Dependencies
+## Dependencies
 We use EC2 instance in AWS
 Instance type: t2.micro
 operation system: ubuntu22.04
 
-## Environments Established you can install
+## Environments Established You Can Install
 
 These environments have already been set up and are available for you to download.
 
@@ -60,7 +60,7 @@ Region: us-east-1
 
 after you launch a instance by AMI, you should follow the [restart.md](./restart.md) to restart the service in virtual meachine to build the operational environment.
 
-## Evaluation and expected result
+## Evaluation and Expected Result
 
 [fiotest.md](./fiotest.md) is the guide file to test and evalute the performance of file I/O.
 
