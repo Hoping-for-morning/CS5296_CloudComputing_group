@@ -46,19 +46,20 @@ operation system: ubuntu22.04
 
 These environments have already been set up and are available for you to download.
 
-Podman:
-EC2 AMI ID: ami-002acc3ab6e575668
-Region: us-east-1c
-
-Singularity:
-EC2 AMI ID: ami-0c9b8b367dbd5d7ca
-Region: us-east-1a
-
 Docker:
 EC2 AMI ID: ami-03734a29ec3d48252
 Region: us-east-1
 
-after you launch a instance by AMI, you should follow the [restart.md](./restart.md) to restart the service in virtual meachine to build the operational environment.
+Podman:
+EC2 AMI ID: ami-002acc3ab6e575668
+Region: us-east-1
+
+Singularity:
+EC2 AMI ID: ami-025ee34eec1611436
+Region: us-east-1
+
+
+After you launch a instance by AMI, you should follow the [restart.md](./restart.md) to restart the service in virtual meachine to build the operational environment.
 
 ## Evaluation and Expected Result
 
