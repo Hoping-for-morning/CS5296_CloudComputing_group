@@ -1,5 +1,10 @@
 # building environment
 
+Reference
+https://blog.csdn.net/u014333158/article/details/45172621
+https://blog.csdn.net/yu_223/article/details/116138062
+https://blog.csdn.net/weixin_50674454/article/details/124770487
+
 ## Environment Information
 
 - EC2 in AWS
