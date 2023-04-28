@@ -8,7 +8,7 @@
 
 - EC2 in AWS
 - Instance type: t2.micro
-- operation system: ubuntu22.04
+- operation system: ubuntu20.04
 
 Here is the config and preparation need to do to build our clustering environment.
 
@@ -100,7 +100,7 @@ singularity build --sandbox master/ docker://hmonkey/openmpi14.04:v3
 master/ is the built container
 
 
-## 8. Create nfs1 directory
+## 8. Create nfs directory
 
 ```
 mkdir nfs
