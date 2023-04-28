@@ -94,18 +94,17 @@ Confirm that singularity has been installed
 ## 7. Pull the openmpi image and build a singularity sandbox container
 
 ```
-singularity build --sandbox mpi/ docker://hmonkey/openmpi14.04:v3
+singularity build --sandbox master/ docker://hmonkey/openmpi14.04:v3
 ```
 
-mpi/ is the built container(In our AMI, the container is named master/)
-
+master/ is the built container
 
 
 ## 8. Create nfs1 directory
 
 ```
-mkdir nfs1
-vi ma.c
+mkdir nfs
+vi hello.c
 ```
 
 
@@ -137,8 +136,8 @@ int main(int argc, char *argv[])
 ## 10. Go into the container
 
 ```
-singularity shell --writable mpi/
-singularity run mpi/
+singularity shell --writable master/
+singularity run master/
 ```
 
 
@@ -146,32 +145,35 @@ singularity run mpi/
 ## 11. Mount
 
 ```
-singularity shell -B /home/ubuntu/nfs1 mpi/
+singularity shell -B /home/ubuntu/nfs master/
 ```
 
-We can see that the nfs1 folder is already in the container
-
-<img width="416" alt="image" src="https://user-images.githubusercontent.com/33509788/234894678-1ea0f0ad-2ae6-4514-a8cf-64d2b08be8ab.png">
+We can see that the nfs folder is already in the container
 
 
+<img width="521" alt="555" src="https://user-images.githubusercontent.com/33509788/235032949-d823c543-80ad-48da-864c-903f3557ff84.png">
 
-## 12. Compile ma.c
+
+
+## 12. Compile hello.c
 
 ```
-mpicc -o ma ma.c
+mpicc -o hello hello.c
 ```
 
-<img width="222" alt="image" src="https://user-images.githubusercontent.com/33509788/234894721-578a56d7-fdfb-40bb-b665-16c28977587b.png">
+<img width="516" alt="4444" src="https://user-images.githubusercontent.com/33509788/235032878-c52573cb-b395-42b4-8783-578ff67758c8.png">
+
 
 
 
 ## 13. Run
 
 ```
-mpirun -np 8 ma
+mpirun -np 8 hello
 ```
 
-<img width="409" alt="image" src="https://user-images.githubusercontent.com/33509788/234894787-7c9a55ef-3dae-4324-a516-5eca7196d414.png">
+
+<img width="318" alt="3333" src="https://user-images.githubusercontent.com/33509788/235032685-5020a002-34a5-49be-acbb-001336f0f328.png">
 
  
 
