@@ -1,6 +1,5 @@
 # Restart Steps
 ## Docker
-## Podman
 ### 1. Configuring root login in VM
 
 ~~~shell
@@ -78,5 +77,7 @@ podman attach master
 cd home/file/hpl-2.3/bin/test
 mpirun -np 4 ./xhpl > 1.txt
 ~~~
+## Podman
+The container can be used directly without additional operations.
 ## Singularity
 The container can be used directly without additional operations.
