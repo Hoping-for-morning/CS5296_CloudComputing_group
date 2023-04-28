@@ -79,3 +79,4 @@ cd home/file/hpl-2.3/bin/test
 mpirun -np 4 ./xhpl > 1.txt
 ~~~
 ## Singularity
+The container can be used directly without additional operations.
